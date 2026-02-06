@@ -1,0 +1,41 @@
+---
+title: "Ejercicios Avanzados: Espacios Vectoriales en R²"
+ontology:
+  - "R2"
+  - "Espacios Vectoriales"
+  - "Alta Dificultad"
+---
+
+# Ejercicios de Alta Dificultad: $\mathbb{R}^2$ Estándar
+
+A continuación se presenta una lista de 10 ejercicios desafiantes sobre espacios vectoriales centrados exclusivamente en $\mathbb{R}^2$ bajo la suma y el conjunto de escalares $\mathbb{R}$ usuales. Estos ejercicios buscan fortalecer la comprensión profunda de conceptos como subespacios, independencia lineal, bases y sumas directas.
+
+1.  **Unicidad de la Representación en Bases**  
+    Sea $B = \{u, v\}$ una base de $\mathbb{R}^2$. Demuestre rigurosamente que para cualquier vector $w \in \mathbb{R}^2$, los coeficientes de la combinación lineal que representa a $w$ en la base $B$ son únicos. Es decir, si $w = \alpha_1 u + \beta_1 v$ y $w = \alpha_2 u + \beta_2 v$, entonces $\alpha_1 = \alpha_2$ y $\beta_1 = \beta_2$.
+
+2.  **Intersección de Subespacios Unidimensionales**  
+    Sean $U$ y $W$ dos subespacios vectoriales de $\mathbb{R}^2$ distintos, ambos de dimensión 1. Demuestre formalmente que la intersección $U \cap W$ es el subespacio trivial $\{\mathbf{0}\}$.
+
+3.  **Suma Directa**  
+    Considere los vectores $u = (1, 2)$ y $v = (-1, 1)$. Demuestre que $\mathbb{R}^2$ puede escribirse como la suma directa de los subespacios generados por estos vectores: $\mathbb{R}^2 = \text{gen}(\{u\}) \oplus \text{gen}(\{v\})$.
+
+4.  **Dependencia Lineal Paramétrica**  
+    Determine todos los valores de $k \in \mathbb{R}$ para los cuales el conjunto $S = \{(k, 1), (1, k)\}$ es linealmente dependiente. Interprete este resultado geométricamente en el plano cartesiano.
+
+5.  **Subconjuntos No Lineales**  
+    Analice el conjunto $S = \{(x, y) \in \mathbb{R}^2 : x^2 - y^2 = 0\}$. ¿Es $S$ un subespacio vectorial de $\mathbb{R}^2$? Justifique su respuesta verificando exhaustivamente las propiedades de cerradura bajo la suma y el producto por escalar.
+
+6.  **Cambio de Base Generalizado**  
+    Sea $B = \{(1, 1), (1, -1)\}$ una base de $\mathbb{R}^2$. Encuentre una fórmula general para las coordenadas $[v]_B$ (vector de coordenadas en la base $B$) para cualquier vector $v = (x, y) \in \mathbb{R}^2$.
+
+7.  **Invarianza de la Base bajo Operaciones**  
+    Sean $u, v \in \mathbb{R}^2$ vectores linealmente independientes. Demuestre que el conjunto $\{u + v, u - v\}$ también constituye una base para $\mathbb{R}^2$.
+
+8.  **El Complemento Ortogonal**  
+    Dado el subespacio $W$ generado por el vector $u = (3, -4)$, encuentre una base para el complemento ortogonal $W^\perp$ (el conjunto de todos los vectores en $\mathbb{R}^2$ ortogonales a todo vector en $W$ bajo el producto punto estándar). Verifique que $\text{dim}(W) + \text{dim}(W^\perp) = \text{dim}(\mathbb{R}^2)$.
+
+9.  **Geometría de la Dependencia Lineal**  
+    Demuestre que tres vectores cualesquiera $u, v, w \in \mathbb{R}^2$ son siempre linealmente dependientes. Utilice este hecho para expresar el vector $(5, 7)$ como combinación lineal de $(1, 0)$ y $(1, 1)$.
+
+10. **Subespacios y Cuadrantes**  
+    Sea $Q_1 = \{(x, y) \in \mathbb{R}^2 : x \geq 0, y \geq 0\}$ el primer cuadrante. Demuestre que $Q_1$ es cerrado bajo la suma pero no es un subespacio vectorial. Encuentre específicamente qué axioma falla y proporcione un contraejemplo numérico.
