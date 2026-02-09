@@ -18,7 +18,6 @@ parts:
     chapters:
       - file: r2/index.md
         sections:
-          - file: r2/teoria/operaciones_r2.ipynb
           - file: r2/teoria/espacios_vectoriales.ipynb
           - file: r2/teoria/subespacios.ipynb
           - file: r2/teoria/rectas_r2.ipynb
