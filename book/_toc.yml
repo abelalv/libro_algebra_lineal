@@ -24,11 +24,11 @@ parts:
           - file: r2/teoria/rectas_r2.ipynb
       - file: r2/index_material.md
         sections:
-          - file: r2/actividad_enganche.ipynb
-          - file: r2/quiz_conceptos.ipynb
-          - file: r2/ejercicios_computacionales.ipynb
-          - file: r2/ejercicios_teoricos.ipynb
-          - file: r2/actividad_computacional.ipynb
+          - file: r2/material/actividad_enganche.ipynb
+          - file: r2/material/quiz_conceptos.ipynb
+          - file: r2/material/ejercicios_computacionales.ipynb
+          - file: r2/material/ejercicios_teoricos.ipynb
+          - file: r2/material/actividad_computacional.ipynb
 
   - caption: 2. Espacios vectoriales en R³
     chapters:
