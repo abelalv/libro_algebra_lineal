@@ -18,9 +18,10 @@ parts:
     chapters:
       - file: r2/index.md
         sections:
-          - file: r2/operaciones_r2.ipynb
-          - file: r2/rectas_r2.ipynb
-          - file: r2/independencia_lineal.ipynb
+          - file: r2/teoria/operaciones_r2.ipynb
+          - file: r2/teoria/espacios_vectoriales.ipynb
+          - file: r2/teoria/subespacios.ipynb
+          - file: r2/teoria/rectas_r2.ipynb
       - file: r2/index_material.md
         sections:
           - file: r2/actividad_enganche.ipynb
@@ -33,9 +34,7 @@ parts:
     chapters:
       - file: r3/index.md
         sections:
-          - file: r3/espacios_vectoriales.ipynb
           - file: r3/combinaciones_lineales.ipynb
-          - file: r3/subespacios.ipynb
       - file: r3/index_material.md
         sections:
           - file: r3/actividad_enganche.ipynb
