@@ -28,6 +28,7 @@ parts:
           - file: r2/material/ejercicios_computacionales.ipynb
           - file: r2/material/ejercicios_teoricos.ipynb
           - file: r2/material/actividad_computacional.ipynb
+          - file: r2/material/examen 
 
   - caption: 2. Espacios vectoriales en R³
     chapters:
